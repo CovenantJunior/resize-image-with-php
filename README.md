@@ -17,7 +17,7 @@ for macOS:
 ## $ cd /users/user/my_project
 
 for Windows:
-## $ cd C:/users/user/my_project
+## $ cd c:/users/user/my_project
 
 and type:
 ## $ git init
