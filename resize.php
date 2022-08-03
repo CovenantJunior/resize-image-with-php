@@ -108,6 +108,7 @@
             move_uploaded_file($_FILES['attachment']['tmp_name'], '../(path-to-preferred-image-directory)/'.$image.'');
             //Move client file directly to server (no further changes needed)
 
+            //Save necessary data in database. e.g. image name, file name, file size, file extension, path and inserted date
             $qryin = /* ======= INSERT INTO A DATABASE ======= */
         
             if($qryin){
