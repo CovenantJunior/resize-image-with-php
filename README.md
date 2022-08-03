@@ -35,3 +35,5 @@ Open your localhost server and make (only POST) requests to the specified path o
 You may also see any lint errors during the process.
 
 Do well to give a star, contribute and or raise an issue.
+
+Thanks 🤎
