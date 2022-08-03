@@ -14,10 +14,10 @@ for Linux:
 ## $ cd /home/user/my_project
 
 for macOS:
-## $ cd /Users/user/my_project
+## $ cd /users/user/my_project
 
 for Windows:
-## $ cd C:/Users/user/my_project
+## $ cd C:/users/user/my_project
 
 and type:
 ## $ git init
