@@ -1,4 +1,4 @@
-<?
+<?php
     if(isset($_FILES['attachment'])){
     //Condition to checek for the POST request having a file name, "attachment"
     
@@ -106,6 +106,8 @@
             /* ======= IF IMAGE SIZE LIMIT ISN'T CROSSED ======= */
 
             move_uploaded_file($_FILES['attachment']['tmp_name'], '../(path-to-preferred-image-directory)/'.$image.'');
+            //Move client file directly to server (no further changes needed)
+
             $qryin = /* ======= INSERT INTO A DATABASE ======= */
         
             if($qryin){
